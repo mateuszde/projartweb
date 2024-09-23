@@ -15,8 +15,8 @@ function App() {
         <ThemeProvider theme={theme}>
             <GlobalStyle />
             <Navbar />
-            <Home />
-            <Footer />
+            {/* <Home />
+            <Footer /> */}
         </ThemeProvider>
     );
 }
