@@ -1,5 +1,7 @@
+import Header from "../../layout/Header/Header";
+
 const Home = () => {
-    return <p> strona glowna</p>;
+  return <Header />;
 };
 
 export default Home;

@@ -15,18 +15,31 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Onest', sans-serif;
         font-size: 16px;
-        letter-spacing: 0.1em;
+        font-weight: 300;
+        letter-spacing: 0.07em;
         /* color: ${({ theme }) => theme.colors.dark}; */
         /* background-color: ${({ theme }) => theme.colors.white}; */
     }
 
     h1, h2, h3, h4, h5, h6 {
+        font-family: "Onest", sans-serif;
+        font-weight: 900;
         /* font-family: 'Archivo Black', sans-serif; */
         /* font-family: 'Poppins', sans-serif; */
         /* font-weight: 700; */
 
+    }
+
+    h1 {
+        font-size: 50px;
+        margin-bottom: 16px;
+    }
+
+    p {
+        /* font-family: "Inter", sans-serif; */
+        /* font-family: "Roboto", sans-serif; */
     }
 
 `;
