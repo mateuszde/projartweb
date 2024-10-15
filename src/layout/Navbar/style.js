@@ -29,7 +29,7 @@ export const LogoImage = styled.img`
 export const StyledList = styled.ul`
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 16px;
   text-transform: capitalize;
   list-style: none;
 `;

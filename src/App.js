@@ -9,7 +9,12 @@ import Button from "./components/Button/Button";
 import Container from "./components/Container/Container";
 
 const theme = {
-  colors: {},
+  colors: {
+    white: "#FAF9F6",
+    // black: "#202020",
+    black: "#060606",
+    // black: "#020403",
+  },
 };
 
 function App() {

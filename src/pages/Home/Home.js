@@ -1,7 +1,13 @@
 import Header from "../../layout/Header/Header";
+import Services from "../../layout/Services/Services";
 
 const Home = () => {
-  return <Header />;
+  return (
+    <main>
+      <Header />
+      <Services />
+    </main>
+  );
 };
 
 export default Home;

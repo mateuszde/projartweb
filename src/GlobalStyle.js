@@ -19,8 +19,8 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 16px;
         font-weight: 300;
         letter-spacing: 0.07em;
-        /* color: ${({ theme }) => theme.colors.dark}; */
-        /* background-color: ${({ theme }) => theme.colors.white}; */
+        background-color: ${({ theme }) => theme.colors.white};
+        color: ${({ theme }) => theme.colors.black};
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -35,6 +35,10 @@ export const GlobalStyle = createGlobalStyle`
     h1 {
         font-size: 50px;
         margin-bottom: 16px;
+    }
+
+    h2 {
+        font-size: 30px;
     }
 
     p {

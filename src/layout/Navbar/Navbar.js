@@ -34,11 +34,9 @@ const Navbar = () => {
               <p>kontakt</p>
             </li>
             <li>
-              <Button>Zadzwoń teraz</Button>
+              <Button navigation>Zadzwoń teraz</Button>
             </li>
           </StyledList>
-
-          {/* <button>zadzwoń</button> */}
         </div>
       </NavWrapper>
     </Wrapper>

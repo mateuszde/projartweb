@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.header`
-  background-color: lightgray;
-  /* height: 300px; */
   min-height: 70vh;
   position: relative;
   display: flex;
@@ -27,29 +25,14 @@ export const BackgroundImage = styled.img`
   height: 100%;
   width: 100%;
   object-fit: cover;
-  filter: brightness(45%);
+  filter: brightness(55%);
 `;
 
 export const StyledHeading1 = styled.h1`
   color: white;
 `;
 
-export const ShapeDividerBottom = styled.div`
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-
-  & svg {
-    position: relative;
-    display: block;
-    width: calc(114% + 1.3px);
-    height: 147px;
-  }
-
-  & path {
-    fill: #ffffff;
-  }
+export const ButtonsWrapper = styled.div`
+  display: flex;
+  gap: 32px;
 `;
