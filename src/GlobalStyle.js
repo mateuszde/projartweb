@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        font-family: 'Onest', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         font-weight: 300;
         letter-spacing: 0.07em;
@@ -24,12 +24,9 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     h1, h2, h3, h4, h5, h6 {
-        font-family: "Onest", sans-serif;
+        font-family: "Teko", sans-serif;
         font-weight: 900;
-        /* font-family: 'Archivo Black', sans-serif; */
-        /* font-family: 'Poppins', sans-serif; */
-        /* font-weight: 700; */
-
+        letter-spacing: 0.05em;
     }
 
     h1 {
@@ -41,9 +38,12 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 30px;
     }
 
+    h3 {
+        font-size: 18px;
+    }
+
     p {
-        /* font-family: "Inter", sans-serif; */
-        /* font-family: "Roboto", sans-serif; */
+        font-family:'Montserrat', sans-serif;
     }
 
 `;

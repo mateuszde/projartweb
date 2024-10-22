@@ -1,14 +1,15 @@
 import Paragraph from "../Paragraph/Paragraph";
+import { Wrapper, TitleWrapper } from "./style";
 
 const TextWithChildrenComponent = ({ title, text, children }) => {
   return (
-    <div>
-      <div>
+    <Wrapper>
+      <TitleWrapper>
         <h2>{title}</h2>
         <Paragraph>{text}</Paragraph>
-      </div>
+      </TitleWrapper>
       <div>{children}</div>
-    </div>
+    </Wrapper>
   );
 };
 

@@ -10,13 +10,12 @@ export const StyledNavButton = styled.button`
   border-radius: 48px;
   padding: 16px 24px;
   font-size: 14px;
-  /* font-weight: 700; */
   font-weight: bold;
   line-height: 1;
   transition: 0.2s ease-in-out;
 
   &:hover {
-    background: ${({ theme }) => theme.colors.white};
+    background: transparent;
     color: ${({ theme }) => theme.colors.black};
     transform: translateY(-3px);
   }
@@ -37,7 +36,8 @@ export const StyledWhiteButton = styled.button`
   transition: 0.2s ease-in-out;
 
   &:hover {
-    background: ${({ theme }) => theme.colors.black};
+    /* background: ${({ theme }) => theme.colors.black}; */
+    background: transparent;
     /* border: 1px solid ${({ theme }) => theme.colors.black}; */
     color: ${({ theme }) => theme.colors.white};
     transform: translateY(-3px);
@@ -50,6 +50,29 @@ export const StyledBlackButton = styled.button`
   border: 1px solid ${({ theme }) => theme.colors.white};
   cursor: pointer;
   background: ${({ theme }) => theme.colors.black};
+  color: ${({ theme }) => theme.colors.white};
+  border-radius: 48px;
+  padding: 16px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background: ${({ theme }) => theme.colors.white};
+    border: 1px solid ${({ theme }) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.black};
+    transform: translateY(-3px);
+  }
+`;
+
+export const StyledTransparentButton = styled.button`
+  display: inline-block;
+  outline: 0;
+  border: 1px solid ${({ theme }) => theme.colors.white};
+  cursor: pointer;
+  /* background: ${({ theme }) => theme.colors.black}; */
+  background: transparent;
   color: ${({ theme }) => theme.colors.white};
   border-radius: 48px;
   padding: 16px 24px;
