@@ -40,6 +40,7 @@ export const GlobalStyle = createGlobalStyle`
 
     h3 {
         font-size: 24px;
+        font-weight: 600;
     }
 
     p {

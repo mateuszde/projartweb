@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.header`
-  min-height: 70vh;
+  min-height: 100vh;
   position: relative;
   display: flex;
   align-items: center;
+  margin-bottom: 80px;
 `;
 
 export const ContainerWrapper = styled.div`
@@ -35,4 +36,5 @@ export const StyledHeading1 = styled.h1`
 export const ButtonsWrapper = styled.div`
   display: flex;
   gap: 32px;
+  margin-top: 16px;
 `;

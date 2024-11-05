@@ -26,11 +26,11 @@ const Header = () => {
           </Paragraph>
           <ButtonsWrapper>
             <Button white>Poznaj ofertę</Button>
-            <Button transparent>Poznaj ofertę</Button>
+            <Button transparent>Jakiś inny</Button>
           </ButtonsWrapper>
         </ContainerWrapper>
       </Container>
-      <ShapeDividerBottom />
+      {/* <ShapeDividerBottom /> */}
     </Wrapper>
   );
 };

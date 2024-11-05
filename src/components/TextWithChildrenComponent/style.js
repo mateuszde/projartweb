@@ -10,7 +10,7 @@ export const TitleWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 24px;
-  max-width: 70%;
+  max-width: 55%;
   align-self: center;
   text-align: center;
 
