@@ -1,7 +1,6 @@
 import Button from "../../components/Button/Button";
 import Container from "../../components/Container/Container";
 import Paragraph from "../../components/Paragraph/Paragraph";
-import ShapeDividerBottom from "../../components/ShapeDividerBottom/ShapeDividerBottom";
 
 import {
   Wrapper,

@@ -1,32 +1,33 @@
 import Container from "../Container/Container";
 import Card from "./Card/Card";
 import { Wrapper } from "./style";
+import { CgDatabase } from "react-icons/cg";
 
 const CARDS = [
   {
     id: 1,
-    icon: "",
+    icon: <CgDatabase />,
     title: "nazwa",
     description:
       "Krótki opis zachęcający czy cokolwiek. A może coś innego, kto to wie.",
   },
   {
     id: 2,
-    icon: "",
+    icon: <CgDatabase />,
     title: "nazwa",
     description:
       "Krótki opis zachęcający czy cokolwiek. A może coś innego, kto to wie.",
   },
   {
     id: 3,
-    icon: "",
+    icon: <CgDatabase />,
     title: "nazwa",
     description:
       "Krótki opis zachęcający czy cokolwiek. A może coś innego, kto to wie.",
   },
   {
     id: 4,
-    icon: "",
+    icon: <CgDatabase />,
     title: "nazwa",
     description:
       "Krótki opis zachęcający czy cokolwiek. A może coś innego, kto to wie.",

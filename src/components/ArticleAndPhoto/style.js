@@ -5,6 +5,7 @@ export const SectionWrapper = styled.div`
   display: flex;
   gap: 5%;
   padding: 48px 20px;
+  margin-top: 32px;
 `;
 
 export const ImageWrapper = styled.div`
@@ -16,7 +17,7 @@ export const ImageWrapper = styled.div`
 export const TextWrapper = styled.div`
   order: ${({ textfirst }) => (textfirst ? 1 : 2)};
   width: 45%;
-
+  margin-top: 24px;
   & h3 {
     margin-bottom: 16px;
     text-transform: uppercase;

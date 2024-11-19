@@ -2,7 +2,6 @@ import ArticleAndPhoto from "../../components/ArticleAndPhoto/ArticleAndPhoto";
 import TextWithChildrenComponent from "../../components/TextWithChildrenComponent/TextWithChildrenComponent";
 import Paragraph from "../../components/Paragraph/Paragraph";
 import Container from "../../components/Container/Container";
-import { Wrapper } from "./style";
 
 import imageWindow from "../../assets/images/oknobalustrada.jpg";
 import imageManagament from "../../assets/images/zp.jpg";
