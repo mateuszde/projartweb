@@ -6,31 +6,29 @@ import {
   Wrapper,
   ContainerWrapper,
   BackgroundImage,
-  StyledHeading1,
+  StyledHeading2,
   ButtonsWrapper,
 } from "./style";
-import image from "../../assets/images/Designer.jpeg";
+import image from "../../assets/images/bgc3.jpg";
 
-const Header = () => {
+const CallToAction = () => {
   return (
     <Wrapper>
       <BackgroundImage src={image} />
       <Container>
         <ContainerWrapper>
-          <StyledHeading1>Z pasji do nowoczesnego budownictwa.</StyledHeading1>
+          <StyledHeading2>Planujesz inwestycję? </StyledHeading2>
           <Paragraph light="true">
-            Tworzymy nowoczesne przestrzenie z dbałością o każdy detal.
-            Doświadczenie, innowacja i pasja – to fundamenty naszych realizacji.
+            Skontaktuj się z nami i przekonaj się, jak możemy pomóc zrealizować
+            Twoją wizję.
           </Paragraph>
           <ButtonsWrapper>
-            <Button white>Poznaj ofertę</Button>
-            <Button transparent>O firmie</Button>
+            <Button transparent>Zadzwón teraz</Button>
           </ButtonsWrapper>
         </ContainerWrapper>
       </Container>
-      {/* <ShapeDividerBottom /> */}
     </Wrapper>
   );
 };
 
-export default Header;
+export default CallToAction;

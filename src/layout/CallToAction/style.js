@@ -1,22 +1,24 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.header`
-  min-height: 100vh;
+  min-height: 300px;
   position: relative;
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  margin: 40px 0;
 `;
 
 export const ContainerWrapper = styled.div`
-  max-width: 650px;
-  margin-top: 80px;
-  padding: 20px;
+  max-width: 700px;
+  padding: 40px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transform: translateY(-50px);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 `;
 
 export const BackgroundImage = styled.img`
@@ -26,10 +28,10 @@ export const BackgroundImage = styled.img`
   height: 100%;
   width: 100%;
   object-fit: cover;
-  filter: brightness(55%);
+  filter: brightness(60%);
 `;
 
-export const StyledHeading1 = styled.h1`
+export const StyledHeading2 = styled.h2`
   color: white;
 `;
 

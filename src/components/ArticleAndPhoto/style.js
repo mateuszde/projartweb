@@ -5,13 +5,12 @@ export const SectionWrapper = styled.div`
   display: flex;
   gap: 5%;
   padding: 48px 20px;
-  margin-top: 32px;
 `;
 
 export const ImageWrapper = styled.div`
   order: ${({ textfirst }) => (textfirst ? 2 : 1)};
   width: 45%;
-  height: 400px;
+  height: 500px;
 `;
 
 export const TextWrapper = styled.div`

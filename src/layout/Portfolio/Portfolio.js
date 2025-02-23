@@ -11,6 +11,9 @@ import image5 from "../../assets/images/portfolio gallery/5.jpg";
 import image6 from "../../assets/images/portfolio gallery/6.jpg";
 import image7 from "../../assets/images/portfolio gallery/7.jpg";
 import image8 from "../../assets/images/portfolio gallery/8.jpg";
+import image9 from "../../assets/images/portfolio gallery/9.jpg";
+import image10 from "../../assets/images/portfolio gallery/10.png";
+import image11 from "../../assets/images/portfolio gallery/11.png";
 
 const IMAGES_GALLERY = [
   {
@@ -53,6 +56,11 @@ const IMAGES_GALLERY = [
     caption: "Krótki opis",
     src: image8,
   },
+  {
+    alt: "Krótki opis",
+    caption: "Krótki opis",
+    src: image9,
+  },
 ];
 
 const Portfolio = () => {
@@ -60,7 +68,7 @@ const Portfolio = () => {
     <Container>
       <TextWithChildrenComponent
         title="Realizacje"
-        text="Tutaj moje realizacje, sratatata i inne teksty, które można tutaj umieścić."
+        text="Zrealizowane projekty to nasza najlepsza wizytówka. Zobacz efekty naszej pracy i przekonaj się o jakości oraz precyzji wykonania."
       >
         <GalleryWrapper>
           <ImageGallery
