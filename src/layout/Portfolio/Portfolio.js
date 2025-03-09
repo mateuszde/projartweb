@@ -4,62 +4,55 @@ import { GalleryWrapper } from "./style";
 import { ImageGallery } from "react-image-grid-gallery";
 
 import image1 from "../../assets/images/portfolio gallery/1.jpg";
-import image2 from "../../assets/images/portfolio gallery/2.jpg";
 import image3 from "../../assets/images/portfolio gallery/3.jpg";
 import image4 from "../../assets/images/portfolio gallery/4.jpg";
 import image5 from "../../assets/images/portfolio gallery/5.jpg";
 import image6 from "../../assets/images/portfolio gallery/6.jpg";
 import image7 from "../../assets/images/portfolio gallery/7.jpg";
 import image8 from "../../assets/images/portfolio gallery/8.jpg";
-import image9 from "../../assets/images/portfolio gallery/9.jpg";
-import image10 from "../../assets/images/portfolio gallery/10.png";
-import image11 from "../../assets/images/portfolio gallery/11.png";
+import image13 from "../../assets/images/portfolio gallery/13.jpg";
 
 const IMAGES_GALLERY = [
   {
-    alt: "Krótki opis",
-    caption: "Krótki opis",
+    alt: "Balustrada szklana - szkło: VSG ESG 10.10.4",
+    caption: "Balustrada szklana - szkło: VSG ESG 10.10.4",
     src: image1,
   },
   {
-    alt: "Krótki opis",
-    caption: "Krótki opis",
-    src: image2,
-  },
-  {
-    alt: "Krótki opis",
-    caption: "Krótki opis",
+    alt: "Balustrada szklana - szkło: VSG ESG 10.10.4",
+    caption: "Balustrada szklana - szkło: VSG ESG 10.10.4",
     src: image3,
   },
   {
-    alt: "Krótki opis",
-    caption: "Krótki opis",
+    alt: "Balustrada szklana - szkło: VSG ESG 10.10.4",
+    caption: "Balustrada szklana - szkło: VSG ESG 10.10.4",
     src: image4,
   },
   {
-    alt: "Krótki opis",
-    caption: "Krótki opis",
+    alt: "Balustrada szklana - szkło: VSG ESG 10.10.4",
+    caption: "Balustrada szklana - szkło: VSG ESG 10.10.4",
     src: image5,
   },
   {
-    alt: "Krótki opis",
-    caption: "Krótki opis",
+    alt: "Balustrada szklana - szkło: VSG ESG 10.10.4",
+    caption: "Balustrada szklana - szkło: VSG ESG 10.10.4",
     src: image6,
   },
   {
-    alt: "Krótki opis",
-    caption: "Krótki opis",
+    alt: "Balustrada szklana - szkło: VSG ESG 10.10.4",
+    caption: "Balustrada szklana - szkło: VSG ESG 10.10.4",
     src: image7,
   },
   {
-    alt: "Krótki opis",
-    caption: "Krótki opis",
+    alt: "Kabina prysznicowa - szkło: 8mm ESG Optiwhite",
+    caption: "Kabina prysznicowa - szkło: 8mm ESG Optiwhite",
     src: image8,
   },
+
   {
-    alt: "Krótki opis",
-    caption: "Krótki opis",
-    src: image9,
+    alt: "Balustrada szklana - szkło: VSG ESG 10.10.4",
+    caption: "Balustrada szklana - szkło: VSG ESG 10.10.4",
+    src: image13,
   },
 ];
 

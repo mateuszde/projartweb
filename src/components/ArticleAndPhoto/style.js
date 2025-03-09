@@ -10,13 +10,13 @@ export const SectionWrapper = styled.div`
 export const ImageWrapper = styled.div`
   order: ${({ textfirst }) => (textfirst ? 2 : 1)};
   width: 45%;
-  height: 500px;
+  height: 600px;
 `;
 
 export const TextWrapper = styled.div`
   order: ${({ textfirst }) => (textfirst ? 1 : 2)};
   width: 45%;
-  margin-top: 24px;
+  margin-top: 48px;
   & h3 {
     margin-bottom: 16px;
     text-transform: uppercase;

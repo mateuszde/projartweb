@@ -9,7 +9,7 @@ export const Wrapper = styled.header`
 `;
 
 export const ContainerWrapper = styled.div`
-  max-width: 700px;
+  max-width: 1300px;
   padding: 40px;
   text-align: center;
   display: flex;
