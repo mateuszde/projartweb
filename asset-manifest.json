@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.js": "/projartweb/static/js/main.15f21cba.js",
+    "main.js": "/projartweb/static/js/main.4f082195.js",
+    "static/media/13.jpg": "/projartweb/static/media/13.fbc68029fc09d245ad35.jpg",
     "static/media/3.jpg": "/projartweb/static/media/3.80be7015ff32ac02fb16.jpg",
     "static/media/4.jpg": "/projartweb/static/media/4.32874d8f627240654fb0.jpg",
-    "static/media/9.jpg": "/projartweb/static/media/9.46ad0fb41406a3ccacc5.jpg",
     "static/media/8.jpg": "/projartweb/static/media/8.da9d33ab5190056c8fa4.jpg",
     "static/media/6.jpg": "/projartweb/static/media/6.f7a1325bebd7ed6e4712.jpg",
     "static/media/1.jpg": "/projartweb/static/media/1.c137c04192616edfb46a.jpg",
@@ -12,14 +12,11 @@
     "static/media/Designer.jpeg": "/projartweb/static/media/Designer.db7314ebe3d69dffe2d6.jpeg",
     "static/media/bgc3.jpg": "/projartweb/static/media/bgc3.14a209f81d5f003194b5.jpg",
     "static/media/oknobalustrada.jpg": "/projartweb/static/media/oknobalustrada.46c65686053ae748d08c.jpg",
-    "static/media/2.jpg": "/projartweb/static/media/2.c2abeafcedd1baa3d836.jpg",
     "static/media/konstrukcjeSzlane.jpg": "/projartweb/static/media/konstrukcjeSzlane.5c3d2761dd01278d97e2.jpg",
-    "static/media/10.png": "/projartweb/static/media/10.395946f9ea818a870a87.png",
-    "static/media/11.png": "/projartweb/static/media/11.0cd70d450b8a1c38fe33.png",
     "index.html": "/projartweb/index.html",
-    "main.15f21cba.js.map": "/projartweb/static/js/main.15f21cba.js.map"
+    "main.4f082195.js.map": "/projartweb/static/js/main.4f082195.js.map"
   },
   "entrypoints": [
-    "static/js/main.15f21cba.js"
+    "static/js/main.4f082195.js"
   ]
 }
