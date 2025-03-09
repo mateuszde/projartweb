@@ -66,9 +66,9 @@ const Portfolio = () => {
         <GalleryWrapper>
           <ImageGallery
             imagesInfoArray={IMAGES_GALLERY}
-            columnCount={"auto"}
+            columnCount={2}
             columnWidth={350}
-            gapSize={20}
+            gapSize={10}
           />
         </GalleryWrapper>
       </TextWithChildrenComponent>
