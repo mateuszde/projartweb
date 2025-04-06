@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/projartweb/static/js/main.382872b2.js",
+    "main.js": "/projartweb/static/js/main.babcd1e7.js",
     "static/media/13.jpg": "/projartweb/static/media/13.fbc68029fc09d245ad35.jpg",
     "static/media/3.jpg": "/projartweb/static/media/3.80be7015ff32ac02fb16.jpg",
     "static/media/4.jpg": "/projartweb/static/media/4.32874d8f627240654fb0.jpg",
@@ -14,9 +14,9 @@
     "static/media/oknobalustrada.jpg": "/projartweb/static/media/oknobalustrada.46c65686053ae748d08c.jpg",
     "static/media/konstrukcjeSzlane.jpg": "/projartweb/static/media/konstrukcjeSzlane.5c3d2761dd01278d97e2.jpg",
     "index.html": "/projartweb/index.html",
-    "main.382872b2.js.map": "/projartweb/static/js/main.382872b2.js.map"
+    "main.babcd1e7.js.map": "/projartweb/static/js/main.babcd1e7.js.map"
   },
   "entrypoints": [
-    "static/js/main.382872b2.js"
+    "static/js/main.babcd1e7.js"
   ]
 }
