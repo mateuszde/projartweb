@@ -1,12 +1,12 @@
-import { Wrapper } from "./style";
+import { Wrapper, ButtonsWrapper } from "./style";
 import ArticleAndPhoto from "../../components/ArticleAndPhoto/ArticleAndPhoto";
 import TextWithChildrenComponent from "../../components/TextWithChildrenComponent/TextWithChildrenComponent";
 import Paragraph from "../../components/Paragraph/Paragraph";
 import Container from "../../components/Container/Container";
 import UnorderedList from "../../components/UnorderedList/UnorderedList";
+import Button from "../../components/Button/Button";
 
 import imageWindow from "../../assets/images/oknobalustrada.jpg";
-import Cards from "../../components/Cards/Cards";
 
 const AboutUs = () => {
   return (
@@ -42,6 +42,18 @@ const AboutUs = () => {
                 </Paragraph>
               </li>
             </UnorderedList>
+
+            <Paragraph>
+              Zachęcamy do pobrania ważnych dokumentów związanych z naszymi
+              usługami. Kliknij poniżej, aby uzyskać dostęp do referencji oraz
+              potwierdzenia wpisu na wykaz osób upoważnionych do sporządzania
+              świadectw charakterystyki energetycznej.
+            </Paragraph>
+
+            <ButtonsWrapper>
+              <Button black>Pobierz referencje</Button>
+              <Button black>Pobierz zaświadczenie</Button>
+            </ButtonsWrapper>
           </Wrapper>
         </ArticleAndPhoto>
       </TextWithChildrenComponent>

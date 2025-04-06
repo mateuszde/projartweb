@@ -60,7 +60,7 @@ export const StyledBlackButton = styled.button`
 
   &:hover {
     background: ${({ theme }) => theme.colors.white};
-    border: 1px solid ${({ theme }) => theme.colors.white};
+    border: 1px solid ${({ theme }) => theme.colors.black};
     color: ${({ theme }) => theme.colors.black};
     transform: translateY(-3px);
   }

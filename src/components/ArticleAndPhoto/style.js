@@ -4,7 +4,8 @@ export const SectionWrapper = styled.div`
   width: 100%;
   display: flex;
   gap: 5%;
-  padding: 48px 20px;
+  padding: 32px 20px;
+  margin-bottom: 50px;
 `;
 
 export const ImageWrapper = styled.div`

@@ -10,11 +10,15 @@ import {
   ButtonsWrapper,
 } from "./style";
 import image from "../../assets/images/Designer.jpeg";
+import image1 from "../../assets/images/hero1.jpg";
+import image2 from "../../assets/images/hero2.jpg";
+import image3 from "../../assets/images/hero3.jpg";
+import image4 from "../../assets/images/hero4.jpg";
 
 const Header = () => {
   return (
     <Wrapper>
-      <BackgroundImage src={image} />
+      <BackgroundImage src={image1} />
       <Container>
         <ContainerWrapper>
           <StyledHeading1>Z pasji do nowoczesnego budownictwa.</StyledHeading1>

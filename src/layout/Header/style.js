@@ -1,15 +1,14 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.header`
-  min-height: 100vh;
+  min-height: 75vh;
   position: relative;
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
 `;
 
 export const ContainerWrapper = styled.div`
-  max-width: 650px;
+  max-width: 900px;
   margin-top: 80px;
   padding: 20px;
   text-align: center;
@@ -26,11 +25,12 @@ export const BackgroundImage = styled.img`
   height: 100%;
   width: 100%;
   object-fit: cover;
-  filter: brightness(55%);
+  filter: brightness(30%);
 `;
 
 export const StyledHeading1 = styled.h1`
   color: white;
+  text-transform: uppercase;
 `;
 
 export const ButtonsWrapper = styled.div`

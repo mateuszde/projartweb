@@ -8,10 +8,10 @@ export const Wrapper = styled.div`
 
 export const StyledImage = styled.img`
   object-fit: cover;
-  filter: brightness(70%);
+  filter: brightness(90%);
   width: 100%;
   height: 100%;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   overflow: hidden;
   transition: 0.3s ease-in-out;
 
@@ -27,5 +27,5 @@ export const Square = styled.div`
   position: absolute;
   top: 15px;
   left: 15px;
-  border: 2px solid ${({ theme }) => theme.colors.gold};
+  border: 3px solid ${({ theme }) => theme.colors.gold};
 `;

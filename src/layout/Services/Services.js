@@ -4,7 +4,10 @@ import Paragraph from "../../components/Paragraph/Paragraph";
 import Container from "../../components/Container/Container";
 
 import imageWindow from "../../assets/images/oknobalustrada.jpg";
-import imageManagament from "../../assets/images/konstrukcjeSzlane.jpg";
+import pmImage from "../../assets/images/pm.png";
+import glassImage from "../../assets/images/ksz2.jpg";
+import swiadectewo from "../../assets/images/sche.jpg";
+import imageManagament from "../../assets/images/pm.png";
 import UnorderedList from "../../components/UnorderedList/UnorderedList";
 
 const Services = () => {
@@ -14,7 +17,7 @@ const Services = () => {
         title="Oferta"
         text="Dzięki kompleksowemu podejściu zapewniamy sprawny przebieg realizacji projektów oraz estetyczne i funkcjonalne rozwiązania architektoniczne. Nasze doświadczenie oraz dbałość o detale gwarantują najwyższą jakość na każdym etapie współpracy."
       >
-        <ArticleAndPhoto image={imageWindow}>
+        <ArticleAndPhoto image={pmImage}>
           <h3>
             Prowadzenie inwestycji budowlanych <br />
             (Project Manager)
@@ -67,7 +70,7 @@ const Services = () => {
             </li>
           </UnorderedList>
         </ArticleAndPhoto>
-        <ArticleAndPhoto image={imageManagament} textfirst="true">
+        <ArticleAndPhoto image={glassImage} textfirst="true">
           <h3>Projektowanie i wykonawstwo konstrukcji szklanych</h3>
           <Paragraph>
             Tworzymy nowoczesne i eleganckie rozwiązania szklane, które nadają
@@ -116,23 +119,12 @@ const Services = () => {
           </h3>
           <Paragraph>
             Stolarka budowlana spełnia obecnie bardzo istotną rolę w
-            nowoczesnych budynkach, zarówno jednorodzinnych jak i w budownictwie
-            wielorodzinnym oraz projektach usługowych. Lokalizacja obiektów
-            obliguje do spełnienia przez okna, drzwi i elewacje szklane, szeregu
-            wymagań dotyczących specyfikacji technicznych, które muszą spełniać
-            nie tylko kryteria opisane warunkach technicznych jakim powinny
-            odpowiadać budynki i ich usytuowanie (Rozporządzenie ministra
-            infrastruktury z dnia 12 kwietnia 2002, z późniejszymi zmianami),
-            ale także inne, kluczowe wymagania związane m.in. z bezpieczeństwem,
-            wentylacją oraz ochroną przed hałasem.
+            nowoczesnych budynkach i z tego powodu poddawana jest szeregom
+            wymagań zawartych w specyfikacjach technicznych.
           </Paragraph>
           <Paragraph>
-            Niezmiernie ważny jest zatem dobór odpowiednich rozwiązań, aby
-            stolarka spełniała oczekiwania użytkowników i zapewniała jej
-            długookresowe prawidłowe i bezproblemowe działanie.
-          </Paragraph>
-          <Paragraph>
-            W ramach naszych usług oferujemy następujące usługi:
+            W ramach naszych usług oferujemy następujące usługi, związane z
+            określeniem właściwości stolarki:
           </Paragraph>
           <UnorderedList>
             <li>
@@ -149,14 +141,19 @@ const Services = () => {
             </li>
             <li>
               <Paragraph>
-                dobór rozwiązań związanych z izolacja akustyczną – spełnienie
-                wymagań operatów akustycznych,
+                dobór rozwiązań związanych z izolacja akustyczną,
+              </Paragraph>
+            </li>
+            <li>
+              <Paragraph>
+                dobór rozwiązań związanych z bezpieczeństwem użytkowania
+                konstrukcji,
               </Paragraph>
             </li>
             <li>
               <Paragraph>
                 indywidualna analiza projektu budowlanego i dobór rozwiązań
-                zapewniających wymaganą funkcjonalność.
+                zapewniających wymaganą funkcjonalność,
               </Paragraph>
             </li>
             <li>
@@ -166,14 +163,14 @@ const Services = () => {
             </li>
             <li>
               <Paragraph>
-                mediacje przedsądowe, umożliwiające polubowne rozwiązanie sporów
-                pomiędzy inwestorem (zamawiającym) a wykonawcą / producentem /
-                firmą montażową stolarki.
+                mediacje przedsądowe, w celu rozwiązania sporów pomiędzy
+                inwestorem (zamawiającym) a wykonawcą / producentem / firmą
+                montażową stolarki.
               </Paragraph>
             </li>
           </UnorderedList>
         </ArticleAndPhoto>
-        <ArticleAndPhoto image={imageManagament} textfirst="true">
+        <ArticleAndPhoto image={swiadectewo} textfirst="true">
           <h3>Świadectwa charakterystyki energetycznej budynków</h3>
           <Paragraph>
             Świadectwo charakterystyki energetycznej budynków to dokument, który
@@ -211,11 +208,9 @@ const Services = () => {
           <Paragraph>
             Szczegółowe informacje na temat świadectw charakterystyki
             energetycznej budynków dostępne są na stronie Ministerstwa Rozwoju i
-            Technologii pod adresem:
+            Technologii.
           </Paragraph>
-          <Paragraph>
-            https://www.gov.pl/web/rozwoj-technologia/Swiadectwa-charakterystyki-energetycznej
-          </Paragraph>
+
           <Paragraph>
             Nasza oferta obejmuje kompleksowe opracowanie świadectw oraz audytu
             energetycznego dla wszystkich rodzajów budynków.

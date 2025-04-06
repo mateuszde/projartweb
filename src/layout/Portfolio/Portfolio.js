@@ -17,11 +17,18 @@ const IMAGES_GALLERY = [
     alt: "Balustrada szklana - szkło: VSG ESG 10.10.4",
     caption: "Balustrada szklana - szkło: VSG ESG 10.10.4",
     src: image1,
+    width: 300,
+    height: 300,
   },
   {
     alt: "Balustrada szklana - szkło: VSG ESG 10.10.4",
     caption: "Balustrada szklana - szkło: VSG ESG 10.10.4",
     src: image3,
+  },
+  {
+    alt: "Balustrada szklana - szkło: VSG ESG 10.10.4",
+    caption: "Balustrada szklana - szkło: VSG ESG 10.10.4",
+    src: image4,
   },
   {
     alt: "Balustrada szklana - szkło: VSG ESG 10.10.4",
@@ -66,9 +73,11 @@ const Portfolio = () => {
         <GalleryWrapper>
           <ImageGallery
             imagesInfoArray={IMAGES_GALLERY}
-            columnCount={2}
-            columnWidth={350}
-            gapSize={10}
+            columnCount={3}
+            rowHeight={1000}
+
+            // columnWidth={10}
+            // gapSize={10}
           />
         </GalleryWrapper>
       </TextWithChildrenComponent>

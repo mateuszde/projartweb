@@ -9,10 +9,8 @@ import Footer from "./layout/Footer/Footer";
 const theme = {
   colors: {
     white: "#FAF9F6",
-    // black: "#202020",
     black: "#060606",
     gold: "#AD974F",
-    // black: "#020403",
   },
 };
 
