@@ -1,6 +1,7 @@
 {
   "files": {
-    "main.js": "/projartweb/static/js/main.babcd1e7.js",
+    "main.js": "/projartweb/static/js/main.c80f51bc.js",
+    "static/media/pm.png": "/projartweb/static/media/pm.69df57e477934ddbd5fe.png",
     "static/media/13.jpg": "/projartweb/static/media/13.fbc68029fc09d245ad35.jpg",
     "static/media/3.jpg": "/projartweb/static/media/3.80be7015ff32ac02fb16.jpg",
     "static/media/4.jpg": "/projartweb/static/media/4.32874d8f627240654fb0.jpg",
@@ -9,14 +10,19 @@
     "static/media/1.jpg": "/projartweb/static/media/1.c137c04192616edfb46a.jpg",
     "static/media/7.jpg": "/projartweb/static/media/7.9ad48b12578519db8e86.jpg",
     "static/media/5.jpg": "/projartweb/static/media/5.82bbba8eb026815140ab.jpg",
+    "static/media/ksz2.jpg": "/projartweb/static/media/ksz2.7ec085097387c5fbc5db.jpg",
+    "static/media/hero1.jpg": "/projartweb/static/media/hero1.01ef4bef595ad325bf14.jpg",
     "static/media/Designer.jpeg": "/projartweb/static/media/Designer.db7314ebe3d69dffe2d6.jpeg",
     "static/media/bgc3.jpg": "/projartweb/static/media/bgc3.14a209f81d5f003194b5.jpg",
+    "static/media/sche.jpg": "/projartweb/static/media/sche.66a9f00d82e210589373.jpg",
     "static/media/oknobalustrada.jpg": "/projartweb/static/media/oknobalustrada.46c65686053ae748d08c.jpg",
-    "static/media/konstrukcjeSzlane.jpg": "/projartweb/static/media/konstrukcjeSzlane.5c3d2761dd01278d97e2.jpg",
+    "static/media/hero4.jpg": "/projartweb/static/media/hero4.792c23d1ddb29c742d1b.jpg",
+    "static/media/hero2.jpg": "/projartweb/static/media/hero2.6811f8e41675183bdb1c.jpg",
+    "static/media/hero3.jpg": "/projartweb/static/media/hero3.8ec96b7c56ce7d08dda8.jpg",
     "index.html": "/projartweb/index.html",
-    "main.babcd1e7.js.map": "/projartweb/static/js/main.babcd1e7.js.map"
+    "main.c80f51bc.js.map": "/projartweb/static/js/main.c80f51bc.js.map"
   },
   "entrypoints": [
-    "static/js/main.babcd1e7.js"
+    "static/js/main.c80f51bc.js"
   ]
 }
