@@ -18,9 +18,13 @@ const Services = () => {
         text="Dzięki kompleksowemu podejściu zapewniamy sprawny przebieg realizacji projektów oraz estetyczne i funkcjonalne rozwiązania architektoniczne. Nasze doświadczenie oraz dbałość o detale gwarantują najwyższą jakość na każdym etapie współpracy."
       >
         <ArticleAndPhoto image={pmImage}>
-          <h3>
+          {/* <h3>
             Prowadzenie inwestycji budowlanych <br />
             (Project Manager)
+          </h3> */}
+          <h3>
+            Prowadzenie inwestycji budowlanych w ramach funkcji Inwestora
+            zastępczego lub Project Managera
           </h3>
           <Paragraph>
             Pełnimy rolę reprezentanta Inwestora na każdym etapie realizacji
@@ -36,7 +40,16 @@ const Services = () => {
               </Paragraph>
             </li>
             <li>
-              <Paragraph>Kontrola zgodności realizacji inwestycji</Paragraph>
+              <Paragraph>
+                Kontrola zgodności realizacji inwestycji i jakości prac
+                budowlanych
+              </Paragraph>
+            </li>
+            <li>
+              <Paragraph>
+                Nadzór inwestorski nad wszystkimi branżami, zgodnie z przepisami
+                ustawy Prawo budowlane i innymi obowiązującymi przepisami
+              </Paragraph>
             </li>
             <li>
               <Paragraph>
@@ -51,9 +64,9 @@ const Services = () => {
             </li>
             <li>
               <Paragraph>
-                Akceptacja materiałów zaproponowanych przez wykonawcę,
-                zweryfikowanych przez nadzór (inżyniera kontraktu) oraz
-                projektanta
+                Akceptacja podwykonawców i zaproponowanych przez nich
+                materiałów, weryfikacja rozliczeń z GW w ramach solidarnej
+                odpowiedzialności
               </Paragraph>
             </li>
             <li>
@@ -64,8 +77,8 @@ const Services = () => {
             </li>
             <li>
               <Paragraph>
-                Wsparcie w procedurze uzyskiwania Pozwolenia na Użytkowanie, aby
-                zakończenie inwestycji przebiegło bez komplikacji
+                Wsparcie w procedurze uzyskania odbioru końcowego i Pozwolenia
+                na Użytkowanie (PnU)
               </Paragraph>
             </li>
           </UnorderedList>
