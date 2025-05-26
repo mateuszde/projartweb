@@ -67,6 +67,7 @@ const Portfolio = () => {
   return (
     <Container>
       <TextWithChildrenComponent
+        id="realizacje"
         title="Realizacje"
         text="Zrealizowane projekty to nasza najlepsza wizytówka. Zobacz efekty naszej pracy i przekonaj się o jakości oraz precyzji wykonania."
       >

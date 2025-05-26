@@ -5,6 +5,7 @@ const Contact = () => {
   return (
     <Container>
       <TextWithChildrenComponent
+        id="kontakt"
         title="Kontakt"
         text="Masz pytania lub potrzebujesz dodatkowych informacji? Skontaktuj się z nami, a odpowiemy na wszelkie wątpliwości!"
       >

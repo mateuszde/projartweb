@@ -9,15 +9,15 @@ import {
   StyledHeading2,
   ButtonsWrapper,
 } from "./style";
-import image from "../../assets/images/bgc3.jpg";
+import image from "../../assets/images/CallToActionBGC.jpg";
 
 const CallToAction = () => {
   return (
     <Wrapper>
-      <BackgroundImage src={image} />
+      <BackgroundImage src={image} alt="Betonowe tło" />
       <Container>
         <ContainerWrapper>
-          <StyledHeading2>Planujesz inwestycję? </StyledHeading2>
+          <StyledHeading2>Planujesz inwestycję?</StyledHeading2>
           <Paragraph light="true">
             Skontaktuj się z nami i przekonaj się, jak możemy pomóc zrealizować
             Twoją wizję.

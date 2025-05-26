@@ -1,4 +1,5 @@
-import logo1 from "../../assets/logos/ProjArtBlack.png";
+import { useState } from "react";
+import logo from "../../assets/logos/ProjArtBlack.png";
 import Button from "../../components/Button/Button";
 import {
   Wrapper,
@@ -6,29 +7,47 @@ import {
   LogoImage,
   LogoWrapper,
   StyledList,
+  StyledLink,
 } from "./style";
 
 const Navbar = () => {
+  const [navbarOpen, setNavbarOpen] = useState(false);
+  const checkbox = document.getElementById("checkbox");
+
+  const handleToggle = () => {
+    setNavbarOpen(!navbarOpen);
+  };
+
+  const handleTouch = () => {
+    if (checkbox) {
+      checkbox.checked = !checkbox.checked;
+      handleToggle();
+    }
+  };
+
   return (
     <Wrapper>
       <NavWrapper>
-        <LogoWrapper>
-          <LogoImage src={logo1} alt="Logo Proj-Art Krzysztof Smolnik" />
+        <LogoWrapper to="/projartweb#">
+          <LogoImage src={logo} alt="Logo Proj-Art Krzysztof Smolnik" />
         </LogoWrapper>
 
         <div>
           <StyledList>
             <li>
-              <p>strona główna</p>
+              <StyledLink to="/projartweb#">strona główna</StyledLink>
             </li>
             <li>
-              <p>oferta</p>
+              <StyledLink to="/projartweb#o-nas">o nas</StyledLink>
             </li>
             <li>
-              <p>realizacje</p>
+              <StyledLink to="/projartweb#oferta">oferta</StyledLink>
             </li>
             <li>
-              <p>kontakt</p>
+              <StyledLink to="/projartweb#realizacje">realizacje</StyledLink>
+            </li>
+            <li>
+              <StyledLink to="/projartweb#kontakt">kontakt</StyledLink>
             </li>
             <li>
               <Button navigation>Zadzwoń teraz</Button>

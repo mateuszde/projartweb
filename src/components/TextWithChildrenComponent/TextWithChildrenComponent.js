@@ -1,9 +1,9 @@
 import Paragraph from "../Paragraph/Paragraph";
 import { Wrapper, TitleWrapper, Title } from "./style";
 
-const TextWithChildrenComponent = ({ title, text, children }) => {
+const TextWithChildrenComponent = ({ id, title, text, children }) => {
   return (
-    <Wrapper>
+    <Wrapper id={id}>
       <TitleWrapper>
         <Title>{title}</Title>
         <Paragraph>{text}</Paragraph>

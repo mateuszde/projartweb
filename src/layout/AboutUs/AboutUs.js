@@ -6,13 +6,17 @@ import Container from "../../components/Container/Container";
 import UnorderedList from "../../components/UnorderedList/UnorderedList";
 import Button from "../../components/Button/Button";
 
-import imageWindow from "../../assets/images/oknobalustrada.jpg";
+import image from "../../assets/images/hero6.jpg";
 
 const AboutUs = () => {
   return (
     <Container>
-      <TextWithChildrenComponent title="O nas" text="">
-        <ArticleAndPhoto textfirst image={imageWindow}>
+      <TextWithChildrenComponent title="O nas" text="" id="o-nas">
+        <ArticleAndPhoto
+          textfirst
+          image={image}
+          altText="Zdjęcie przedstawiające zespół firmy"
+        >
           <Wrapper>
             <Paragraph>
               Nasza firma powstała w 2004 roku z pasji do tworzenia nowoczesnych

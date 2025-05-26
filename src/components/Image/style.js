@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 
 export const StyledImage = styled.img`
   object-fit: cover;
-  filter: brightness(90%);
+  filter: brightness(75%);
   width: 100%;
   height: 100%;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -16,8 +16,8 @@ export const StyledImage = styled.img`
   transition: 0.3s ease-in-out;
 
   &:hover {
-    filter: brightness(100%);
-    transform: scale(1.1);
+    filter: brightness(95%);
+    transform: scale(1.05);
   }
 `;
 

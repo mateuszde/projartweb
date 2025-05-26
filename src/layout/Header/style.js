@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import { NavHashLink } from "react-router-hash-link";
 
 export const Wrapper = styled.header`
-  min-height: 75vh;
+  min-height: 80vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -25,7 +26,7 @@ export const BackgroundImage = styled.img`
   height: 100%;
   width: 100%;
   object-fit: cover;
-  filter: brightness(30%);
+  filter: brightness(46%);
 `;
 
 export const StyledHeading1 = styled.h1`

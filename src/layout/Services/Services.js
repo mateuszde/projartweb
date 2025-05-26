@@ -3,25 +3,21 @@ import TextWithChildrenComponent from "../../components/TextWithChildrenComponen
 import Paragraph from "../../components/Paragraph/Paragraph";
 import Container from "../../components/Container/Container";
 
-import imageWindow from "../../assets/images/oknobalustrada.jpg";
+import imageWindow from "../../assets/images/hero7.jpg";
 import pmImage from "../../assets/images/pm.png";
-import glassImage from "../../assets/images/ksz2.jpg";
+import glassImage from "../../assets/images/IMG_1491.jpg";
 import swiadectewo from "../../assets/images/sche.jpg";
-import imageManagament from "../../assets/images/pm.png";
 import UnorderedList from "../../components/UnorderedList/UnorderedList";
 
 const Services = () => {
   return (
     <Container>
       <TextWithChildrenComponent
+        id="oferta"
         title="Oferta"
         text="Dzięki kompleksowemu podejściu zapewniamy sprawny przebieg realizacji projektów oraz estetyczne i funkcjonalne rozwiązania architektoniczne. Nasze doświadczenie oraz dbałość o detale gwarantują najwyższą jakość na każdym etapie współpracy."
       >
-        <ArticleAndPhoto image={pmImage}>
-          {/* <h3>
-            Prowadzenie inwestycji budowlanych <br />
-            (Project Manager)
-          </h3> */}
+        <ArticleAndPhoto image={pmImage} altText="Project Manager">
           <h3>
             Prowadzenie inwestycji budowlanych w ramach funkcji Inwestora
             zastępczego lub Project Managera
@@ -83,7 +79,11 @@ const Services = () => {
             </li>
           </UnorderedList>
         </ArticleAndPhoto>
-        <ArticleAndPhoto image={glassImage} textfirst="true">
+        <ArticleAndPhoto
+          image={glassImage}
+          textfirst="true"
+          altText="Konstrukcja szklana hali"
+        >
           <h3>Projektowanie i wykonawstwo konstrukcji szklanych</h3>
           <Paragraph>
             Tworzymy nowoczesne i eleganckie rozwiązania szklane, które nadają
@@ -125,7 +125,10 @@ const Services = () => {
             dokumentację/projekt instalowanych produktów.
           </Paragraph>
         </ArticleAndPhoto>
-        <ArticleAndPhoto image={imageWindow}>
+        <ArticleAndPhoto
+          image={imageWindow}
+          altText="Zdjęcie przedstawiające zespół firmy"
+        >
           <h3>
             Doradztwo oraz niezależne opinie techniczne w zakresie stolarki
             okiennej i drzwiowej
@@ -183,7 +186,11 @@ const Services = () => {
             </li>
           </UnorderedList>
         </ArticleAndPhoto>
-        <ArticleAndPhoto image={swiadectewo} textfirst="true">
+        <ArticleAndPhoto
+          image={swiadectewo}
+          textfirst="true"
+          altText="Przykładowe świadectwo charakterystyki energetycznej budynku"
+        >
           <h3>Świadectwa charakterystyki energetycznej budynków</h3>
           <Paragraph>
             Świadectwo charakterystyki energetycznej budynków to dokument, który

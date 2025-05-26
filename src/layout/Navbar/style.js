@@ -1,12 +1,14 @@
 import styled from "styled-components";
+import { NavHashLink } from "react-router-hash-link";
 
 export const Wrapper = styled.nav`
-  /* position: fixed;
-    top: 0;
-    left: 0; */
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 500;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  background-color: ${({ theme }) => theme.colors.white};
 `;
 
 export const NavWrapper = styled.div`
@@ -18,7 +20,7 @@ export const NavWrapper = styled.div`
   align-items: center;
 `;
 
-export const LogoWrapper = styled.div`
+export const LogoWrapper = styled(NavHashLink)`
   /* height: 80px; */
 `;
 
@@ -36,4 +38,16 @@ export const StyledList = styled.ul`
 
 export const ListItem = styled.li`
   text-decoration: none;
+`;
+
+export const StyledLink = styled(NavHashLink)`
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.gold};
+  }
 `;
