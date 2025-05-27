@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/projartweb/static/js/main.7752a755.js",
+    "main.js": "/projartweb/static/js/main.a387de39.js",
     "static/media/hero6.jpg": "/projartweb/static/media/hero6.d77bf688c54d13f74c6a.jpg",
     "static/media/pm.png": "/projartweb/static/media/pm.69df57e477934ddbd5fe.png",
     "static/media/13.jpg": "/projartweb/static/media/13.fbc68029fc09d245ad35.jpg",
@@ -17,9 +17,9 @@
     "static/media/CallToActionBGC.jpg": "/projartweb/static/media/CallToActionBGC.14a209f81d5f003194b5.jpg",
     "static/media/sche.jpg": "/projartweb/static/media/sche.66a9f00d82e210589373.jpg",
     "index.html": "/projartweb/index.html",
-    "main.7752a755.js.map": "/projartweb/static/js/main.7752a755.js.map"
+    "main.a387de39.js.map": "/projartweb/static/js/main.a387de39.js.map"
   },
   "entrypoints": [
-    "static/js/main.7752a755.js"
+    "static/js/main.a387de39.js"
   ]
 }
