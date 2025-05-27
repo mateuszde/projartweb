@@ -11,7 +11,7 @@ import image from "../../assets/images/hero6.jpg";
 const AboutUs = () => {
   return (
     <Container>
-      <TextWithChildrenComponent title="O nas" text="" id="o-nas">
+      <TextWithChildrenComponent title="O nas" text="" id="onas">
         <ArticleAndPhoto
           textfirst
           image={image}
@@ -55,8 +55,18 @@ const AboutUs = () => {
             </Paragraph>
 
             <ButtonsWrapper>
-              <Button black>Pobierz referencje</Button>
-              <Button black>Pobierz zaświadczenie</Button>
+              <Button
+                downloadButton
+                downloadFile="List referencyjny Saferoad - K.Smolnik.pdf"
+              >
+                Pobierz referencje
+              </Button>
+              <Button
+                downloadButton
+                downloadFile="Potwierdzenie wpisu ŚCHE 27.02.2025.pdf"
+              >
+                Pobierz zaświadczenie
+              </Button>
             </ButtonsWrapper>
           </Wrapper>
         </ArticleAndPhoto>

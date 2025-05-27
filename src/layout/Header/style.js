@@ -17,6 +17,14 @@ export const ContainerWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   transform: translateY(-50px);
+
+  @media (max-width: 768px) {
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -100px);
+  }
 `;
 
 export const BackgroundImage = styled.img`

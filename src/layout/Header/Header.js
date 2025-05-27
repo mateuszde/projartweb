@@ -1,6 +1,7 @@
 import Button from "../../components/Button/Button";
 import Container from "../../components/Container/Container";
 import Paragraph from "../../components/Paragraph/Paragraph";
+import { NavHashLink } from "react-router-hash-link";
 
 import {
   Wrapper,
@@ -24,8 +25,12 @@ const Header = () => {
             Doświadczenie, innowacja i pasja – to fundamenty naszych realizacji.
           </Paragraph>
           <ButtonsWrapper>
-            <Button white>Poznaj ofertę</Button>
-            <Button transparent>O firmie</Button>
+            <NavHashLink to="/projartweb#oferta">
+              <Button white>Poznaj ofertę</Button>
+            </NavHashLink>
+            <NavHashLink to="/projartweb#onas">
+              <Button transparent>O firmie</Button>
+            </NavHashLink>
           </ButtonsWrapper>
         </ContainerWrapper>
       </Container>

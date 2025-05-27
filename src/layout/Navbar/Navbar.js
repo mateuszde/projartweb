@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavHashLink } from "react-router-hash-link";
 import logo from "../../assets/logos/ProjArtBlack.png";
 import Button from "../../components/Button/Button";
 import {
@@ -8,6 +9,7 @@ import {
   LogoWrapper,
   StyledList,
   StyledLink,
+  Burger,
 } from "./style";
 
 const Navbar = () => {
@@ -32,13 +34,13 @@ const Navbar = () => {
           <LogoImage src={logo} alt="Logo Proj-Art Krzysztof Smolnik" />
         </LogoWrapper>
 
-        <div>
-          <StyledList>
+        <div onClick={handleTouch}>
+          <StyledList navbarOpen={navbarOpen}>
             <li>
               <StyledLink to="/projartweb#">strona główna</StyledLink>
             </li>
             <li>
-              <StyledLink to="/projartweb#o-nas">o nas</StyledLink>
+              <StyledLink to="/projartweb#onas">o nas</StyledLink>
             </li>
             <li>
               <StyledLink to="/projartweb#oferta">oferta</StyledLink>
@@ -50,10 +52,18 @@ const Navbar = () => {
               <StyledLink to="/projartweb#kontakt">kontakt</StyledLink>
             </li>
             <li>
-              <Button navigation>Zadzwoń teraz</Button>
+              <NavHashLink to="/projartweb#kontakt">
+                <Button navigation>Zadzwoń teraz</Button>
+              </NavHashLink>
             </li>
           </StyledList>
         </div>
+        <Burger onClick={handleToggle}>
+          <input type="checkbox" id="checkbox" />
+          <span id="span1"></span>
+          <span id="span2"></span>
+          <span id="span3"></span>
+        </Burger>
       </NavWrapper>
     </Wrapper>
   );
