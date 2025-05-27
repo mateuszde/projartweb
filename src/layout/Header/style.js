@@ -6,6 +6,10 @@ export const Wrapper = styled.header`
   position: relative;
   display: flex;
   align-items: center;
+
+  @media (max-width: 768px) {
+    height: 100vh;
+  }
 `;
 
 export const ContainerWrapper = styled.div`
@@ -40,6 +44,10 @@ export const BackgroundImage = styled.img`
 export const StyledHeading1 = styled.h1`
   color: white;
   text-transform: uppercase;
+
+  @media (max-width: 550px) {
+    font-size: 36px;
+  }
 `;
 
 export const ButtonsWrapper = styled.div`

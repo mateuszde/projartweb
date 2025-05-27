@@ -18,10 +18,13 @@ export const ImageWrapper = styled.div`
   width: 45%;
 
   @media (max-width: 1024px) {
-    width: 60%;
+    width: 70%;
     order: 1;
     margin-bottom: 82px;
     margin-top: -32px;
+  }
+  @media (max-width: 768px) {
+    width: 90%;
   }
 `;
 

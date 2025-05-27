@@ -6,6 +6,10 @@ export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   margin: 40px 0;
+
+  @media (max-width: 750px) {
+    min-height: 400px;
+  }
 `;
 
 export const ContainerWrapper = styled.div`
@@ -19,6 +23,10 @@ export const ContainerWrapper = styled.div`
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+
+  @media (max-width: 440px) {
+    width: 100%;
+  }
 `;
 
 export const BackgroundImage = styled.img`
@@ -33,10 +41,18 @@ export const BackgroundImage = styled.img`
 
 export const StyledHeading2 = styled.h2`
   color: white;
+
+  @media (max-width: 440px) {
+    font-size: 24px;
+  }
 `;
 
 export const ButtonsWrapper = styled.div`
   display: flex;
   gap: 32px;
   margin-top: 16px;
+
+  @media (max-width: 750px) {
+    margin-top: 16px;
+  }
 `;

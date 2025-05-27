@@ -13,6 +13,10 @@ export const TitleWrapper = styled.div`
   max-width: 60%;
   align-self: center;
   text-align: center;
+
+  @media (max-width: 768px) {
+    max-width: 90%;
+  }
 `;
 
 export const Title = styled.h2`

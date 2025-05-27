@@ -5,6 +5,7 @@ import Services from "../../layout/Services/Services";
 import Contact from "../../layout/Contact/Contact";
 import AboutUs from "../../layout/AboutUs/AboutUs";
 import CallToAction from "../../layout/CallToAction/CallToAction";
+import PortfolioFeature from "../../layout/PortfolioFeature/PortfolioFeature";
 
 const Home = () => {
   return (
@@ -15,7 +16,8 @@ const Home = () => {
       <CallToAction />
 
       <AboutUs />
-      <Portfolio />
+      {/* <Portfolio /> */}
+      <PortfolioFeature />
       <Contact />
     </main>
   );

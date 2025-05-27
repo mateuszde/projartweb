@@ -1,6 +1,7 @@
 import Button from "../../components/Button/Button";
 import Container from "../../components/Container/Container";
 import Paragraph from "../../components/Paragraph/Paragraph";
+import { NavHashLink } from "react-router-hash-link";
 
 import {
   Wrapper,
@@ -23,7 +24,9 @@ const CallToAction = () => {
             Twoją wizję.
           </Paragraph>
           <ButtonsWrapper>
-            <Button transparent>Zadzwón teraz</Button>
+            <NavHashLink to="projartweb#kontakt">
+              <Button transparent>Zadzwoń teraz</Button>
+            </NavHashLink>
           </ButtonsWrapper>
         </ContainerWrapper>
       </Container>
