@@ -3,9 +3,9 @@ import TextWithChildrenComponent from "../../components/TextWithChildrenComponen
 import Paragraph from "../../components/Paragraph/Paragraph";
 import Container from "../../components/Container/Container";
 
-import imageWindow from "../../assets/images/hero7.jpg";
-import pmImage from "../../assets/images/pm.png";
-import glassImage from "../../assets/images/IMG_1491.jpg";
+import imageWindow from "../../assets/images/Zespol2.jpg";
+import pmImage from "../../assets/images/pm.jpg";
+import glassImage from "../../assets/images/Balustrady.jpg";
 import swiadectewo from "../../assets/images/sche.jpg";
 import UnorderedList from "../../components/UnorderedList/UnorderedList";
 

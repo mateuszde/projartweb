@@ -24,7 +24,7 @@ const CallToAction = () => {
             Twoją wizję.
           </Paragraph>
           <ButtonsWrapper>
-            <NavHashLink to="projartweb#kontakt">
+            <NavHashLink to="/projartweb#kontakt">
               <Button transparent>Zadzwoń teraz</Button>
             </NavHashLink>
           </ButtonsWrapper>

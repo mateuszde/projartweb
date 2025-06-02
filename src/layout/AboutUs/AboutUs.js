@@ -6,7 +6,7 @@ import Container from "../../components/Container/Container";
 import UnorderedList from "../../components/UnorderedList/UnorderedList";
 import Button from "../../components/Button/Button";
 
-import image from "../../assets/images/hero6.jpg";
+import image from "../../assets/images/Zespol1.jpg";
 
 const AboutUs = () => {
   return (

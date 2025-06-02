@@ -1,11 +1,10 @@
 import Cards from "../../components/Cards/Cards";
 import Header from "../../layout/Header/Header";
-import Portfolio from "../../layout/Portfolio/Portfolio";
 import Services from "../../layout/Services/Services";
 import Contact from "../../layout/Contact/Contact";
 import AboutUs from "../../layout/AboutUs/AboutUs";
 import CallToAction from "../../layout/CallToAction/CallToAction";
-import PortfolioFeature from "../../layout/PortfolioFeature/PortfolioFeature";
+import Portfolio from "../../layout/Portfolio/Portfolio";
 
 const Home = () => {
   return (
@@ -16,8 +15,7 @@ const Home = () => {
       <CallToAction />
 
       <AboutUs />
-      {/* <Portfolio /> */}
-      <PortfolioFeature />
+      <Portfolio />
       <Contact />
     </main>
   );
