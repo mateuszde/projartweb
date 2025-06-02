@@ -15,7 +15,7 @@ import image from "../../assets/images/CallToActionBGC.jpg";
 const CallToAction = () => {
   return (
     <Wrapper>
-      <BackgroundImage src={image} alt="Betonowe tło" />
+      <BackgroundImage src={image} loading="lazy" alt="Betonowe tło" />
       <Container>
         <ContainerWrapper>
           <StyledHeading2>Planujesz inwestycję?</StyledHeading2>

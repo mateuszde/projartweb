@@ -82,7 +82,7 @@ const Services = () => {
         <ArticleAndPhoto
           image={glassImage}
           textfirst="true"
-          altText="Konstrukcja szklana hali"
+          altText="Balustrady szklane"
         >
           <h3>Projektowanie i wykonawstwo konstrukcji szklanych</h3>
           <Paragraph>

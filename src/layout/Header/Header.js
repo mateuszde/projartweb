@@ -16,7 +16,11 @@ import image from "../../assets/images/HeroImage.jpg";
 const Header = () => {
   return (
     <Wrapper>
-      <BackgroundImage src={image} alt="Konstrukca, budynek, tło nagłówka" />
+      <BackgroundImage
+        src={image}
+        loading="lazy"
+        alt="Konstrukca, budynek, tło nagłówka"
+      />
       <Container>
         <ContainerWrapper>
           <StyledHeading1>Z pasji do nowoczesnego budownictwa.</StyledHeading1>

@@ -4,7 +4,7 @@ const Image = ({ src, altText, ...props }) => {
   return (
     <Wrapper>
       <Square />
-      <StyledImage src={src} alt={altText} {...props} />
+      <StyledImage src={src} loading="lazy" alt={altText} {...props} />
     </Wrapper>
   );
 };
