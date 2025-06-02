@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projartweb/static/css/main.5e536ebf.css",
-    "main.js": "/projartweb/static/js/main.417dcd86.js",
+    "main.js": "/projartweb/static/js/main.4bfbbe0f.js",
     "static/media/Balustrada2.jpg": "/projartweb/static/media/Balustrada2.5481e6e3df1846547cd9.jpg",
     "static/media/Balustrada7.jpg": "/projartweb/static/media/Balustrada7.520970ae4acfce31516d.jpg",
     "static/media/Balustrada3.jpg": "/projartweb/static/media/Balustrada3.cd431d525e6d3b096a04.jpg",
@@ -28,10 +28,10 @@
     "static/media/Balustrada4.jpg": "/projartweb/static/media/Balustrada4.5cd3ab5fa90d3eda4323.jpg",
     "index.html": "/projartweb/index.html",
     "main.5e536ebf.css.map": "/projartweb/static/css/main.5e536ebf.css.map",
-    "main.417dcd86.js.map": "/projartweb/static/js/main.417dcd86.js.map"
+    "main.4bfbbe0f.js.map": "/projartweb/static/js/main.4bfbbe0f.js.map"
   },
   "entrypoints": [
     "static/css/main.5e536ebf.css",
-    "static/js/main.417dcd86.js"
+    "static/js/main.4bfbbe0f.js"
   ]
 }
