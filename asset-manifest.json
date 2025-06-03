@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projartweb/static/css/main.5e536ebf.css",
-    "main.js": "/projartweb/static/js/main.0fe975b6.js",
+    "main.js": "/projartweb/static/js/main.f898bcd7.js",
     "static/media/Balustrada2.jpg": "/projartweb/static/media/Balustrada2.5481e6e3df1846547cd9.jpg",
     "static/media/Balustrada7.jpg": "/projartweb/static/media/Balustrada7.520970ae4acfce31516d.jpg",
     "static/media/Balustrada3.jpg": "/projartweb/static/media/Balustrada3.cd431d525e6d3b096a04.jpg",
@@ -34,10 +34,10 @@
     "static/media/phone.svg": "/projartweb/static/media/phone.b57da4ef2861de991881376e7735cc41.svg",
     "static/media/mail.svg": "/projartweb/static/media/mail.b0978c5e8b3ce356e385aaf88adda032.svg",
     "main.5e536ebf.css.map": "/projartweb/static/css/main.5e536ebf.css.map",
-    "main.0fe975b6.js.map": "/projartweb/static/js/main.0fe975b6.js.map"
+    "main.f898bcd7.js.map": "/projartweb/static/js/main.f898bcd7.js.map"
   },
   "entrypoints": [
     "static/css/main.5e536ebf.css",
-    "static/js/main.0fe975b6.js"
+    "static/js/main.f898bcd7.js"
   ]
 }
