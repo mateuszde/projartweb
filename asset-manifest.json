@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projartweb/static/css/main.5e536ebf.css",
-    "main.js": "/projartweb/static/js/main.4bfbbe0f.js",
+    "main.js": "/projartweb/static/js/main.0fe975b6.js",
     "static/media/Balustrada2.jpg": "/projartweb/static/media/Balustrada2.5481e6e3df1846547cd9.jpg",
     "static/media/Balustrada7.jpg": "/projartweb/static/media/Balustrada7.520970ae4acfce31516d.jpg",
     "static/media/Balustrada3.jpg": "/projartweb/static/media/Balustrada3.cd431d525e6d3b096a04.jpg",
@@ -27,11 +27,17 @@
     "static/media/Balustrada6.jpg": "/projartweb/static/media/Balustrada6.46de69f66666d4c9ea83.jpg",
     "static/media/Balustrada4.jpg": "/projartweb/static/media/Balustrada4.5cd3ab5fa90d3eda4323.jpg",
     "index.html": "/projartweb/index.html",
+    "static/media/innovation.svg": "/projartweb/static/media/innovation.78707458557ea09597800c07ed21d85d.svg",
+    "static/media/experience.svg": "/projartweb/static/media/experience.da5493a5023c8c24f1476e437d7156b8.svg",
+    "static/media/trust.svg": "/projartweb/static/media/trust.40865a7b4f16943e40f0a42c95304b95.svg",
+    "static/media/precision.svg": "/projartweb/static/media/precision.218851d27fab5cf5dd1a8c93432bddd2.svg",
+    "static/media/phone.svg": "/projartweb/static/media/phone.b57da4ef2861de991881376e7735cc41.svg",
+    "static/media/mail.svg": "/projartweb/static/media/mail.b0978c5e8b3ce356e385aaf88adda032.svg",
     "main.5e536ebf.css.map": "/projartweb/static/css/main.5e536ebf.css.map",
-    "main.4bfbbe0f.js.map": "/projartweb/static/js/main.4bfbbe0f.js.map"
+    "main.0fe975b6.js.map": "/projartweb/static/js/main.0fe975b6.js.map"
   },
   "entrypoints": [
     "static/css/main.5e536ebf.css",
-    "static/js/main.4bfbbe0f.js"
+    "static/js/main.0fe975b6.js"
   ]
 }
