@@ -72,7 +72,7 @@ const Contact = () => {
               <IconWrapper>
                 <StyledIcon src={phone} alt="Ikona telefonu" />
               </IconWrapper>
-              <StyledLink href="tel:48500500500">+48 500 500 500</StyledLink>
+              <StyledLink href="tel:+48504112828">+48 504 112 828</StyledLink>
             </ContactItem>
             <ContactItem>
               <IconWrapper>
