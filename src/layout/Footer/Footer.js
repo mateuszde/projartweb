@@ -38,14 +38,17 @@ const Footer = () => {
       <Wrapper>
         <TextWrapper>
           <h3>Dane rejestrowe:</h3>
-          <Paragraph light>Proj-Art Krzysztof Smolnik</Paragraph>
+          <Paragraph light>
+            Przedsiębiorstwo Budowlano-Usługowo-Handlowe "Proj-Art" Krzysztof
+            Smolnik
+          </Paragraph>
           <Paragraph light>ul. Różana 14B</Paragraph>
           <Paragraph light>80-180 Borkowo</Paragraph>
           <Paragraph light>NIP: 584-204-46-73</Paragraph>
         </TextWrapper>
         <CopyrightWrapper>
-          Przedsiębiorstwo Budowlano-Usługowo-Handlowe "Proj-Art" Krzysztof
-          Smolnik © {getCurrentYear()}. Wszelkie prawa zastrzeżone.
+          P.B.U.H. "Proj-Art" Krzysztof Smolnik © {getCurrentYear()}. Wszelkie
+          prawa zastrzeżone.
         </CopyrightWrapper>
       </Wrapper>
     </FooterWrapper>

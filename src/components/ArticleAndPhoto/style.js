@@ -38,7 +38,7 @@ export const TextWrapper = styled.div`
   }
 
   @media (max-width: 1024px) {
-    width: 90%;
+    width: 100%;
     order: 2;
   }
 `;
